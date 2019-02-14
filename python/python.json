@@ -13,23 +13,14 @@
   },
   {
     "id": 2,
-    "name": "Stargate: Continuum",
-    "year": "2008",
+    "name": "Переменные",
     "image": "https://github.com/react-native-village/react-native-init/raw/master/stargate/images/Stargate_Continuum.jpg",
-    "info": "Stargate: Continuum is a 2008 Canadian-American military science fiction direct-to-video film in the Stargate franchise. It is the second sequel to television series Stargate SG-1 following The Ark of Truth. It is directed by Martin Wood, director and producer of many episodes of Stargate SG-1 and Stargate Atlantis, written by SG-1 and Atlantis creator Brad Wright, and produced by Wright and Ark of Truth director Robert C. Cooper."
+    "info": "Переменная - это ячейка памяти, которая имеет какое-то имя, а внутри лежит информация, которая имеет какой-то тип. Пример: box1 = 15 (де box1 - имя ячейки, 15 - информация внутри ячейки) Все переменные можно складывать (box3 = box2 + box1), и выводить ответ (box3) командой print. Теперь это можно оформить в виде простой программы и внести её в IDLE. И теперь при нажатии на F5 будет выведено число 25. Давайте научим программу получать данные от пользователя. Для этого используется команда input:box1 = input('Введите число') Кроме чисел можно вводить и слова. Следует запомнить, что числа не обособляются ни чем:a = 12 b = 'А слова обособляются либо одинарными кавычками, либо двойными' Внимание! Если при просьбе ввести число, мы введем (например 1), то программа посчитает это как строчку. Но чтобы это изменить нужно воспользоваться командой int(), а обратно str(). Это команды преобразователи - преобразуют строку в число, и обратно. На этом всё. До следущего урока!"
   },
   {
     "id": 3,
-    "name": "Stargate SG-1",
-    "year": "1997",
+    "name": "Условие",
     "image": "https://github.com/react-native-village/react-native-init/raw/master/stargate/images/Stargate_SG_1.jpg",
-    "info": "Targate SG-1 (often abbreviated as SG-1) is a Canadian-American military science fiction adventure television series and part of Metro-Goldwyn-Mayers Stargate franchise. The show, created by Brad Wright and Jonathan Glassner, is based on the 1994 science fiction film Stargate by Dean Devlin and Roland Emmerich. The television series was filmed in and around the city of Vancouver, British Columbia, Canada. The series premiered on Showtime on July 27, 1997 and moved to the Sci Fi Channel on June 7, 2002; the final episode first aired on Sky1 on March 13, 2007."
-  },
-  {
-    "id": 4,
-    "name": "Stargate Atlantis",
-    "year": "2004",
-    "image": "https://github.com/react-native-village/react-native-init/raw/master/stargate/images/Stargate_Atlantis.jpg",
-    "info": "Stargate Universe (often abbreviated as SGU) is a Canadian-American military science fiction television series and part of MGMs Stargate franchise. It follows the adventures of a present-day, multinational exploration team traveling on the Ancient spaceship Destiny several billion light years distant from the Milky Way Galaxy. They evacuated there and are now trying to figure out a way to return to Earth, while simultaneously trying to explore and to survive in their unknown area of the universe. The series, created by Brad Wright and Robert C. Cooper, premiered in the United States on Syfy on October 2, 2009. The series featured an ensemble cast and was primarily filmed in and around Vancouver, BC, Canada. A second season of 20 episodes was announced by Syfy in December 2009"
+    "info": "Сегодня мы поговорим о условии в Python. Данная конструкция состоит из: начала (if), условия и противоречия (else):if (некое условие):#некое действие else: #некое действие. Стоит запомнить то, что если мы сравниваем числа (переменные), то для этого используются свои операторы: == - знак равенства. != - знак не равенства. > - знак больше. < - знак меньше. >= - знак больше или равно. <= - знак меньше или равно. Теперь полученные навыки применим для создания программы. На этом всё, в следущем уроке мы разберём сложные условия. До следущего урока!"
   }
 ]
